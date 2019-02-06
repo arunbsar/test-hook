@@ -9,7 +9,7 @@ http.createServer(function (request, response) {
   // Send the response body as "Hello World"
   console.log("it's a hit, what do you think !!!")
   response.end('Hello World\n');
-}).listen(8080, '192.168.99.1');
+}).listen(8080);
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/');
